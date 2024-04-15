@@ -189,8 +189,7 @@ header img{
     font-size: 18px;
     font-weight: 700;
     line-height: 21.13px;
-    text-align: center;
-    
+    text-align: center; 
 }
 .zone-text #search{
     width: 147px;
@@ -204,9 +203,6 @@ header img{
     text-align: center;
     outline: none;
     border: none;
-
-
-
 }
 
 .bouton-recherche #recherch{
