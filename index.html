@@ -46,35 +46,38 @@
                         </div>
                     </div>
                     <div class="bouton-recherche">
-                        <button type="button" id="recherch">Rechercher</button>
+                        <button type="button" id="recherch"><span class="modif-btn">Rechercher</span><i class="fa-solid fa-magnifying-glass"></i></button>
+                        
                     </div>
                 </div>
                 <div class="filter-bar">
                     <h3 class="txt-filter">filtres</h3>
-                    <a class="filter-eco" href="#économique">
-                        <div class="icon-money">
-                            <i class="fa-solid fa-money-bill-wave"></i>
-                        </div>
-                        <strong class="txt-eco">Économique</strong>
-                    </a>
-                    <a class="filter-familial" href="#familial">
-                        <div class="icon-person">
-                            <i class="fa-solid fa-person fa-lg"></i>
-                        </div>
-                        <strong class="txt-f">Familial</strong>
-                    </a>
-                    <a class="filter-romantique" href="#romantique">
-                        <div class="icon-romantique">
-                            <i class="fa-solid fa-heart"></i>
-                        </div>
-                        <strong class="txt-r">Romantiques</strong>
-                    </a>
-                    <a class="filter-pepite" href="nos-pépites">
-                        <div class="icon-fire">
-                            <i class="fa-solid fa-fire"></i>
-                        </div>
-                        <strong class="txt-np" >Nos pépites</strong>
-                    </a>
+                    <div class="filter-grid">
+                        <a class="filter-eco" href="#économique">
+                            <div class="icon-money">
+                                <i class="fa-solid fa-money-bill-wave"></i>
+                            </div>
+                            <strong class="txt-eco">Économique</strong>
+                        </a>
+                        <a class="filter-familial" href="#familial">
+                            <div class="icon-person">
+                                <i class="fa-solid fa-person fa-lg"></i>
+                            </div>
+                            <strong class="txt-f">Familial</strong>
+                        </a>
+                        <a class="filter-romantique" href="#romantique">
+                            <div class="icon-romantique">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                            <strong class="txt-r">Romantiques</strong>
+                        </a>
+                        <a class="filter-pepite" href="nos-pépites">
+                            <div class="icon-fire">
+                                <i class="fa-solid fa-fire"></i>
+                            </div>
+                            <strong class="txt-np" >Nos pépites</strong>
+                        </a>
+                    </div>
                 </div>
                 <div class="info-bar">
                     <div class="logo-info">
@@ -88,9 +91,11 @@
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
                     <h2 class="titre-hebergement">Hébergements à Marseille</h2>
-                    <div class="raw-1">
+                    <div class="grid-card">    
                         <a class="cart-1" href="#cart1">
-                            <img src="images/hebergements/fred-kleber.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                            <div class="img-box">
+                                <img src="images/hebergements/fred-kleber.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                            </div>
                             <div class="info-cart-1">
                                 <h3>Hôtel du port</h3>
                                 <p>Nuit à partir de <span class="prix">52</span><span class="symbole-euro">€</span></p>
@@ -106,7 +111,9 @@
 
                         </a>
                         <a class="cart-1" href="#cart2">
-                            <img src="images/hebergements/febrian-zakaria.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                            <div class="img-box">
+                                <img src="images/hebergements/febrian-zakaria.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                            </div>
                             <div class="info-cart-1">
                                 <h3>Hôtel Chez Amina</h3>
                                 <p>Nuit à partir de <span class="prix">96</span><span class="symbole-euro">€</span></p>
@@ -122,7 +129,9 @@
 
                         </a>
                         <a class="cart-1" href="#cart3">
-                            <img src="images/hebergements/reisetopia.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                            <div class="img-box">
+                                <img src="images/hebergements/reisetopia.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                            </div>
                             <div class="info-cart-1">
                                 <h3>Hôtel Les mouettes</h3>
                                 <p>Nuit à partir de <span class="prix">76</span><span class="symbole-euro">€</span></p>
@@ -137,10 +146,12 @@
                             </div>
 
                         </a>
-                    </div>
-                    <div class="raw-2">
+                    
+                    
                         <a class="cart-1" href="#cart1">
-                            <img src="images/hebergements/annie-spratt.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                            <div class="img-box">
+                                <img src="images/hebergements/annie-spratt.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                            </div>
                             <div class="info-cart-1">
                                 <h3>Hôtel de la mer</h3>
                                 <p>Nuit à partir de <span class="prix">46</span><span class="symbole-euro">€</span></p>
@@ -156,7 +167,9 @@
 
                         </a>
                         <a class="cart-1" href="#cart2">
-                            <img src="images/hebergements/marcus-loke.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                            <div class="img-box">
+                                <img src="images/hebergements/marcus-loke.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                            </div>
                             <div class="info-cart-1">
                                 <h3>Auberge La Canebière</h3>
                                 <p>Nuit à partir de <span class="prix">25</span><span class="symbole-euro">€</span></p>
@@ -172,7 +185,9 @@
 
                         </a>
                         <a class="cart-1" href="#cart3">
-                            <img src="images/hebergements/nicate-lee.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                            <div class="img-box">
+                                <img src="images/hebergements/nicate-lee.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                            </div>
                             <div class="info-cart-1">
                                 <h3>Auberge Le Panier</h3>
                                 <p>Nuit à partir de <span class="prix">23</span><span class="symbole-euro">€</span></p>
@@ -187,8 +202,8 @@
                             </div>
 
                         </a>
-
                     </div>
+                    
                     <a class="aplus" href="afficherplus">Afficher plus</a>
 
 
