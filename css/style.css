@@ -952,14 +952,10 @@ footer h3{
     .nom-activite{
         height: 30px;
     }
-    .cart-1{
-        
-    }
     .cart-1 .info-cart-1{
         gap: 0;
     }
 }
-
 
 
 /* Medium devices (tablets, less/equal than 1024px) */
@@ -1351,9 +1347,6 @@ footer h3{
     }
 }
 @media (max-width:430px){
-    .filter-grid{
-      
-    }
     .filter-eco{
         width: 100%;
         height: 50px;
