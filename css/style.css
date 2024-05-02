@@ -506,10 +506,11 @@ header img {
 }
 
 .info-bar {
-    width: 1, 340px;
+    width: 1 340px;
     height: 24px;
     gap: 10px;
     opacity: 0px;
+    margin-right: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1425,6 +1426,8 @@ footer h3 {
         left: 286px;
         border-radius: 15px;
         border: 1px;
+        position: relative;
+        left: 3px;
         opacity: 0px;
         box-shadow: 0px 4px 4px 0px #00000040;
 
