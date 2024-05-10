@@ -20,7 +20,6 @@ header nav {
     gap: 0px;
     opacity: 0px;
     justify-content: space-between;
-
 }
 
 .box-logo {
@@ -31,7 +30,6 @@ header nav {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 header img {
@@ -39,8 +37,6 @@ header img {
     height: 19px;
     gap: 0px;
     opacity: 0px;
-
-
 }
 
 .class-menu {
@@ -51,8 +47,6 @@ header img {
     opacity: 0px;
     display: flex;
     justify-content: space-between;
-
-
 }
 
 .class-nav {
@@ -63,7 +57,6 @@ header img {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .class-nav .class-menuh {
@@ -112,7 +105,7 @@ header img {
 
 }
 
-.headline.headline {
+.headline {
     width: 1, 340px;
     height: 53px;
     gap: 8px;
@@ -128,7 +121,7 @@ header img {
     gap: 0px;
     opacity: 0px;
     margin: 0;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 22px;
     font-weight: 700;
     line-height: 25.83px;
@@ -143,12 +136,11 @@ header img {
     margin: 0;
     opacity: 0px;
     margin: 0;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 16px;
     font-weight: 400;
     line-height: 18.78px;
     text-align: left;
-
 }
 
 .barre-recherche {
@@ -160,8 +152,6 @@ header img {
     display: flex;
     align-items: center;
     background: #ffffff;
-
-
 }
 
 .ping {
@@ -175,7 +165,6 @@ header img {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .barre-recherche .fa-location-dot {
@@ -190,7 +179,6 @@ header img {
     justify-content: center;
     border-top: solid 1px #F2F2F2;
     border-bottom: solid 1px #F2F2F2;
-
 }
 
 .zone-text {
@@ -198,7 +186,7 @@ header img {
     height: 21px;
     gap: 0px;
     opacity: 0px;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 18px;
     font-weight: 700;
     line-height: 21.13px;
@@ -210,7 +198,7 @@ header img {
     height: 21px;
     gap: 0px;
     opacity: 0px;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 18px;
     font-weight: 700;
     line-height: 21.13px;
@@ -220,7 +208,7 @@ header img {
 }
 
 .bouton-recherche #recherch {
-    width: Hug 132px;
+    width: 132px;
     height: Fixed 49px;
     padding: 13px 16px 13px 16px;
     gap: 10px;
@@ -228,7 +216,7 @@ header img {
     border: 1px 0px 0px 0px;
     opacity: 0px;
     display: flex;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 18px;
     font-weight: 700;
     color: #ffffff;
@@ -271,7 +259,7 @@ header img {
     height: 21px;
     gap: 0px;
     opacity: 0px;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 18px;
     font-weight: 700;
     line-height: 21.13px;
@@ -323,7 +311,7 @@ header img {
     height: 20px;
     gap: 0px;
     opacity: 0px;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 17px;
     font-weight: 700;
     line-height: 19.96px;
@@ -361,8 +349,6 @@ header img {
     justify-content: center;
     align-items: center;
     justify-content: space-around;
-
-
 }
 
 .fa-person {
@@ -375,7 +361,6 @@ header img {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .txt-f {
@@ -389,8 +374,6 @@ header img {
     line-height: 19.96px;
     text-align: left;
     color: #000000;
-
-
 }
 
 .filter-romantique {
@@ -420,7 +403,6 @@ header img {
     opacity: 0px;
     display: flex;
     align-items: center;
-
 }
 
 .fa-heart {
@@ -430,7 +412,6 @@ header img {
     gap: 0px;
     opacity: 0px;
     color: #0065FC;
-
 }
 
 .txt-r {
@@ -438,14 +419,12 @@ header img {
     height: 20px;
     gap: 0px;
     opacity: 0px;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 17px;
     font-weight: 700;
     line-height: 19.96px;
     text-align: left;
     color: #000000;
-
-
 }
 
 .filter-pepite {
@@ -496,13 +475,12 @@ header img {
     height: 20px;
     gap: 0px;
     opacity: 0px;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 17px;
     font-weight: 700;
     line-height: 19.96px;
     text-align: left;
     color: #000000;
-
 }
 
 .info-bar {
@@ -670,7 +648,7 @@ header img {
     gap: 0px;
     opacity: 0px;
     margin: 0;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 14px;
     font-weight: 400;
     line-height: 16.44px;
@@ -678,7 +656,7 @@ header img {
 }
 
 .prix {
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 14px;
     font-weight: 400;
     line-height: 16.44px;
@@ -687,7 +665,7 @@ header img {
 }
 
 .symbole-euro {
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 14px;
     font-weight: 600;
     line-height: 16.44px;
@@ -734,7 +712,7 @@ header img {
     height: 21px;
     gap: 0px;
     opacity: 0px;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 18px;
     font-weight: 700;
     line-height: 21.13px;
@@ -880,7 +858,7 @@ a {
     gap: 0px;
     margin-left: 2%;
     opacity: 0px;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 22px;
     font-weight: 700;
     line-height: 25.83px;
@@ -932,7 +910,7 @@ a {
     gap: 0px;
     opacity: 0px;
     margin: 0;
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 16px;
     font-weight: 700;
     line-height: 18.78px;
@@ -951,7 +929,7 @@ footer {
 }
 
 footer h3 {
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 18px;
     font-weight: 700;
     line-height: 21.13px;
@@ -992,7 +970,7 @@ footer h3 {
 }
 
 .footer-info {
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-size: 16px;
     font-weight: 400;
     line-height: 18.78px;
@@ -1126,7 +1104,7 @@ footer h3 {
         width: 100%;
         height: 100%;
         margin: 0;
-        font-family: Raleway;
+        font-family: 'Raleway';
         font-size: 22px;
         font-weight: 700;
         line-height: 25.83px;
@@ -1139,7 +1117,7 @@ footer h3 {
         width: 100%;
         height: auto;
         margin: 0;
-        font-family: Raleway;
+        font-family: 'Raleway';
         font-size: 16px;
         font-weight: 400;
         line-height: 18.78px;
@@ -1210,7 +1188,7 @@ footer h3 {
     }
 
     .nom-activite {
-        font-family: Raleway;
+        font-family: 'Raleway';
         font-size: 16px;
         font-weight: 700;
         line-height: 18.78px;
