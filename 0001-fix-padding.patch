@@ -1,0 +1,78 @@
+From 87e0be8c2f25b94f9cb151262ce118207615576c Mon Sep 17 00:00:00 2001
+From: Leo EL KHENIFER <leo@selkhenifer.com>
+Date: Thu, 16 May 2024 20:14:31 +0200
+Subject: [PATCH] fix padding
+
+---
+ css/style.css | 13 ++++++-------
+ 1 file changed, 6 insertions(+), 7 deletions(-)
+
+diff --git a/css/style.css b/css/style.css
+index 0049488..315fe23 100644
+--- a/css/style.css
++++ b/css/style.css
+@@ -956,7 +956,6 @@ footer h3 {
+     }
+ 
+     .txt-filter {
+-        min-width: 2600px;
+         margin: 0px;
+     }
+ 
+@@ -1157,7 +1156,7 @@ footer h3 {
+         height: 50px;
+         gap: 10px;
+         border-radius: 25px;
+-        
++
+ 
+         padding: 0;
+ 
+@@ -1168,7 +1167,7 @@ footer h3 {
+         height: 50px;
+         gap: 10px;
+         border-radius: 25px;
+-        
++
+ 
+         padding: 0;
+         display: flex;
+@@ -1396,7 +1395,7 @@ footer h3 {
+         height: 50px;
+         gap: 10px;
+         border-radius: 25px;
+-        
++
+ 
+         padding: 0;
+ 
+@@ -1407,7 +1406,7 @@ footer h3 {
+         height: 50px;
+         gap: 10px;
+         border-radius: 25px;
+-        
++
+ 
+         padding: 0;
+         display: flex;
+@@ -1419,7 +1418,7 @@ footer h3 {
+         height: 50px;
+         gap: 10px;
+         border-radius: 25px;
+-        
++
+ 
+         padding: 0;
+     }
+@@ -1429,7 +1428,7 @@ footer h3 {
+         height: 50px;
+         gap: 10px;
+         border-radius: 25px;
+-        
++
+ 
+         padding: 0;
+     }
+-- 
+2.34.1
+

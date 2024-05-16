@@ -86,7 +86,6 @@ header img {
 /************************ info groupe ***************************/
 
 .infogroup {
-    width: 1340px;
     height: 281px;
     gap: 35px;
     margin: 30px;
@@ -97,7 +96,6 @@ header img {
 }
 
 .headline {
-    width: 1340px;
     height: 53px;
     gap: 8px;
     margin: 0;
@@ -129,6 +127,7 @@ header img {
     line-height: 18.78px;
     text-align: left;
 }
+
 /***** barre de recherche *****/
 .barre-recherche {
     width: 375px;
@@ -215,6 +214,7 @@ header img {
 .bouton-recherche #recherch:hover {
     cursor: pointer;
 }
+
 /******** boutons filtres ********/
 .filter-bar {
     width: 758px;
@@ -513,7 +513,6 @@ header img {
 }
 
 .titre-hebergement {
-    width: 811px;
     height: 26px;
     gap: 0px;
     margin: 0;
@@ -652,7 +651,6 @@ header img {
 
 
 .aplus {
-    width: 811px;
     height: 21px;
     gap: 0px;
     font-family: 'Raleway';
@@ -841,7 +839,6 @@ a {
 }
 
 .nom-activite p {
-    width: 259.5px;
     height: 19px;
     gap: 0px;
     margin: 0;
@@ -872,7 +869,7 @@ footer h3 {
 }
 
 .info-propos {
-    width: 100%;
+
     height: 33%;
     padding: 20px;
     gap: 15px;
@@ -881,7 +878,7 @@ footer h3 {
 }
 
 .info-heberg {
-    width: 100%;
+
     height: 33%;
     padding: 20px;
     gap: 15px;
@@ -890,7 +887,6 @@ footer h3 {
 }
 
 .assistance {
-    width: 100%;
     height: 33%;
     padding: 20px;
     gap: 15px;
@@ -956,7 +952,6 @@ footer h3 {
     }
 
     .txt-filter {
-        min-width: 2600px;
         margin: 0px;
     }
 
@@ -1128,7 +1123,6 @@ footer h3 {
     .info-propos,
     .info-heberg,
     .assistance {
-        width: 100%;
         height: 33%;
     }
 }
@@ -1157,7 +1151,7 @@ footer h3 {
         height: 50px;
         gap: 10px;
         border-radius: 25px;
-        
+
 
         padding: 0;
 
@@ -1168,7 +1162,7 @@ footer h3 {
         height: 50px;
         gap: 10px;
         border-radius: 25px;
-        
+
 
         padding: 0;
         display: flex;
@@ -1396,7 +1390,7 @@ footer h3 {
         height: 50px;
         gap: 10px;
         border-radius: 25px;
-        
+
 
         padding: 0;
 
@@ -1407,7 +1401,7 @@ footer h3 {
         height: 50px;
         gap: 10px;
         border-radius: 25px;
-        
+
 
         padding: 0;
         display: flex;
@@ -1419,7 +1413,7 @@ footer h3 {
         height: 50px;
         gap: 10px;
         border-radius: 25px;
-        
+
 
         padding: 0;
     }
@@ -1429,7 +1423,7 @@ footer h3 {
         height: 50px;
         gap: 10px;
         border-radius: 25px;
-        
+
 
         padding: 0;
     }
