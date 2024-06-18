@@ -14,18 +14,15 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
+
 <body>
     <div class="main-container">
         <header>
             <nav>
-                <div class="box-logo">
-                    <img src="images/logo/Booki.png" alt="logoBooki">
-                </div>
+                <img src="images/logo/Booki.png" alt="logoBooki">
                 <div class="class-menu">
-                    <div class="class-nav">
-                        <a class="class-menuh" href="#hebergements">Hébergements</a>
-                        <a class="class-menua" href="#activites">Activités</a>
-                    </div>
+                    <a class="class-menuh" href="#hebergements">Hébergements</a>
+                    <a class="class-menua" href="#activites">Activités</a>
                 </div>
             </nav>
         </header>
@@ -35,55 +32,35 @@
                     <h2 class="titre-headline">Trouvez votre hébergements pour des vacances de rêves</h2>
                     <p class="p-headline">En plein centre-ville ou en pleine nature</p>
                 </div>
-                <div class="barre-recherche">
-                    <div class="ping">
-                        <i class="fa-solid fa-location-dot"></i>
-                    </div>
-                    <div class="box-zt">
-                        <div class="zone-text">
-                            <input type="text" id="search" placeholder="Marseille, France">
-                        </div>
-                    </div>
-                    <div class="bouton-recherche">
-                        <button type="button" id="recherch"><span class="modif-btn">Rechercher</span><i
-                                class="fa-solid fa-magnifying-glass"></i></button>
-                    </div>
-                </div>
+                <form action="" class="barre-recherche">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <input type="text" id="search" placeholder="Marseille, France">
+                    <button type="button" id="recherch"><span class="modif-btn">Rechercher</span><i
+                            class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
                 <div class="filter-bar">
                     <h3 class="txt-filter">filtres</h3>
                     <div class="filter-grid">
                         <a class="filter-eco" href="#économique">
-                            <div class="icon-money">
-                                <i class="fa-solid fa-money-bill-wave"></i>
-                            </div>
+                            <i class="fa-solid fa-money-bill-wave"></i>
                             <strong class="txt-eco">Économique</strong>
                         </a>
                         <a class="filter-familial" href="#familial">
-                            <div class="icon-person">
-                                <i class="fa-solid fa-person fa-lg"></i>
-                            </div>
+                            <i class="fa-solid fa-person fa-lg"></i>
                             <strong class="txt-f">Familial</strong>
                         </a>
                         <a class="filter-romantique" href="#romantique">
-                            <div class="icon-romantique">
-                                <i class="fa-solid fa-heart"></i>
-                            </div>
+                            <i class="fa-solid fa-heart"></i>
                             <strong class="txt-r">Romantiques</strong>
                         </a>
                         <a class="filter-pepite" href="nos-pépites">
-                            <div class="icon-fire">
-                                <i class="fa-solid fa-fire"></i>
-                            </div>
+                            <i class="fa-solid fa-fire"></i>
                             <strong class="txt-np">Nos pépites</strong>
                         </a>
                     </div>
                 </div>
                 <div class="info-bar">
-                    <div class="logo-info">
-                        <div class="ellipse">
-                            <i class="fa-solid fa-info"></i>
-                        </div>
-                    </div>
+                    <i class="fa-solid fa-info"></i>
                     <p class="txt-info">Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
             </div>
