@@ -112,11 +112,14 @@ header img {
 }
 
 /***** barre de recherche *****/
+/* .barre-recherche-and-button {} */
+
 .barre-recherche {
     max-width: 377px;
     height: 47px;
     border-radius: 15px;
     border: 1px;
+    margin-bottom: 35px;
     display: flex;
     align-items: center;
     background: #ffffff;
@@ -181,6 +184,16 @@ form input[type="text"]::placeholder {
 }
 
 /******** boutons filtres ********/
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form button {
+    background: none;
+    border: none;
+}
+
 .filter-bar {
     width: 758px;
     height: 50px;
@@ -212,7 +225,7 @@ form input[type="text"]::placeholder {
 .filter-eco {
     width: 173px;
     height: 50px;
-    padding: 0px 17px 0px 17px;
+    padding: 0px 4px 0px 4px;
     gap: 10px;
     border-radius: 25px;
     border: 2px;
@@ -229,16 +242,12 @@ form input[type="text"]::placeholder {
 
 .fa-money-bill-wave {
     width: 22px;
-    height: 16.26px;
-    top: 2.87px;
-    gap: 0px;
     color: #0065FC;
 }
 
 .txt-eco {
     width: 103px;
     height: 20px;
-    gap: 0px;
     font-family: 'Raleway';
     font-size: 17px;
     font-weight: 700;
@@ -251,7 +260,7 @@ form input[type="text"]::placeholder {
 .filter-familial {
     width: 134px;
     height: 50px;
-    padding: 0px 19px 0px 19px;
+    padding: 0px 6px 0px 6px;
     gap: 10px;
     border-radius: 25px;
     display: flex;
@@ -267,9 +276,7 @@ form input[type="text"]::placeholder {
 
 .fa-person {
     width: 13.44px;
-    height: 22px;
-    left: 4px;
-    gap: 0px;
+    font-size: 145%;
     color: #0065FC;
     display: flex;
     justify-content: center;
@@ -291,7 +298,6 @@ form input[type="text"]::placeholder {
 .filter-romantique {
     width: 170px;
     height: 50px;
-    padding: 0px 19px 0px 19px;
     gap: 10px;
     border-radius: 25px;
     display: flex;
@@ -307,9 +313,6 @@ form input[type="text"]::placeholder {
 
 .fa-heart {
     width: 22px;
-    height: 18.33px;
-    top: 2px;
-    gap: 0px;
     color: #0065FC;
 }
 
@@ -328,7 +331,6 @@ form input[type="text"]::placeholder {
 .filter-pepite {
     width: 167px;
     height: 50px;
-    padding: 0px 19px 0px 19px;
     gap: 10px;
     border-radius: 25px;
     display: flex;
@@ -346,10 +348,6 @@ form input[type="text"]::placeholder {
 
 .fa-fire {
     width: 18px;
-    height: 20.08px;
-    top: 1px;
-    left: 2.5px;
-    gap: 0px;
     color: #0065FC;
 
 }
@@ -445,13 +443,16 @@ form input[type="text"]::placeholder {
 
 }
 
+.grid-card article:hover {
+    cursor: pointer;
+}
+
 .cart-1 {
     width: auto;
     height: auto;
     padding: 0px 0px 15px 0px;
     gap: 4px;
     border-radius: 24px;
-
     display: flex;
     flex-direction: column;
     background: #FFFFFF;
@@ -478,7 +479,7 @@ form input[type="text"]::placeholder {
 
 .info-cart-1 {
     width: auto;
-    height: 64.25px;
+    /* height: 64.25px; */
     padding: 0px 15px 0px 15px;
     gap: 8px;
 
@@ -707,11 +708,8 @@ a {
     flex-direction: column;
 }
 
-.activite h2 {
-    width: 1280px;
-    height: 30.02px;
-    gap: 0px;
-    margin-left: 2%;
+#activites h2 {
+    margin: 30px 0 30px 0;
     font-family: 'Raleway';
     font-size: 22px;
     font-weight: 700;
@@ -733,6 +731,7 @@ a {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+
 }
 
 .card-1 img {
@@ -741,7 +740,9 @@ a {
     gap: 0px;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
+    overflow: hidden;
 }
+
 
 .nom-activite {
     padding: 20px;
@@ -753,7 +754,6 @@ a {
 }
 
 .nom-activite p {
-    height: 19px;
     gap: 0px;
     margin: 0;
     font-family: 'Raleway';
@@ -818,49 +818,16 @@ footer h3 {
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
-/****** Media queries ***********/
-
-@media (max-width: 1235px) {
-    .activite {
-        height: auto;
-    }
-
-    .img-box {
-        margin-top: 3px;
-    }
-
-    .card-a {
-        height: auto;
-        display: flex;
-        align-items: center;
-    }
-
-    .card-1 {
-        width: 21%;
-    }
-
-    .card-1 img {
-        height: 200px;
-    }
-
-    .nom-activite {
-        height: 30px;
-    }
-
-    .cart-1 .info-cart-1 {
-        gap: 0;
-    }
-}
-
 
 /* Medium devices (tablets, less/equal than 1024px) */
-@media (max-width: 1050px) {
+@media (max-width: 1024px) {
     .infogroup {
         height: auto;
         width: auto;
     }
 
     .filter-bar {
+        width: auto;
         margin-bottom: 40px;
         flex-wrap: wrap;
     }
@@ -903,9 +870,26 @@ footer h3 {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
+    .card-a {
+        height: 270px;
+    }
+
+    .nom-activite {
+        height: 20%;
+        padding: 11%;
+    }
+
+    .card-1 img {
+        height: 200px;
+    }
+
+    .nom-activite p {
+        height: 100%;
+    }
 }
 
-@media (max-width: 850px) {
+/* @media (max-width: 850px) {
     .filter-bar {
         width: 100%;
     }
@@ -1039,13 +1023,11 @@ footer h3 {
     .assistance {
         height: 33%;
         width: 80%;
-    }
-}
+    } */
+
 
 /* Small devices (phones, less than 768px) */
-/* @media (max-width: 767.98px)  */
-/* ... */
-@media (max-width: 750px) {
+@media (max-width: 767.98px) {
     .filter-bar {
         width: auto;
         height: auto;
@@ -1098,17 +1080,11 @@ footer h3 {
         border-radius: 25px;
         padding: 0;
     }
-}
-
-@media (max-width: 620px) {
-
 
     .cart-1 .info-cart-1 {
         gap: 0;
     }
-}
 
-@media (max-width: 550px) {
     .cart-1 .info-cart-1 {
         gap: 8px;
     }
@@ -1135,15 +1111,10 @@ footer h3 {
         flex-direction: column;
     }
 
-    /* header img{
-
-    } */
     .class-menu {
         width: 100%;
         height: auto;
         gap: 15px;
-
-
     }
 
     .class-menuh {
@@ -1155,8 +1126,6 @@ footer h3 {
         justify-content: space-around;
         padding-bottom: 10px;
         border-bottom: 2px solid #F2F2F2;
-
-
     }
 
     .class-menua {
@@ -1168,7 +1137,6 @@ footer h3 {
         justify-content: space-around;
         padding-bottom: 10px;
         border-bottom: 2px solid #F2F2F2;
-
     }
 
     .class-menuh:hover {
@@ -1233,7 +1201,7 @@ footer h3 {
 
 }
 
-@media (max-width:495px) {
+/* @media (max-width:495px) {
     .hebergements {
 
         order: 2;
@@ -1289,7 +1257,7 @@ footer h3 {
         padding: 0;
         display: flex;
         /* justify-content: start; */
-    }
+/* }
 
     .filter-romantique {
         width: 100%;
@@ -1361,5 +1329,4 @@ footer h3 {
 
     .txt-eco {
         padding-right: 10px;
-    }
-}
+    } */
